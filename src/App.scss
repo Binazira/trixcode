@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import "./assets/styles/variables";
 
 *{
   box-sizing: border-box;
@@ -8,6 +9,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  color: $primary-color;
 }
 
 .app{
@@ -19,4 +21,47 @@ body{
 .container{
   width: 335px;
   margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: $primary-color;
+}
+
+ul{
+  list-style: none;
+}
+
+@media all and (min-width:$md){
+  .app{
+    width: 100%;
+    border: none;
+  }
+
+  .container{
+    width: 688px;
+  }
+}
+
+@media all and (min-width: $lg) {
+  .container{
+    width: 924px;
+  }
+}
+
+@media all and (min-width: $mac) {
+  .container{
+    width: 1312px;
+  }
+}
+
+@media all and (min-width: $fhd) {
+  .container{
+    width: 1720px;
+  }
+}
+@media all and (min-width: $qhd) {
+  .container{
+    width: 2160px;
+  }
 }

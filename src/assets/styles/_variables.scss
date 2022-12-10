@@ -1,0 +1,19 @@
+$primary-color: #1A2233;
+$light-color: #FFFFFF;
+
+$md: 768px;
+$lg: 1024px;
+$mac: 1440px;
+$fhd: 1920px;
+$qhd: 2560px;
+
+@mixin header-flex ($gap) {
+    display: flex;
+    align-items: center;
+    column-gap: $gap;
+}
+
+@mixin img-full {
+    width: 100%;
+    height: 100%;
+}
