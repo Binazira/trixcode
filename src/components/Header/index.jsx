@@ -25,7 +25,7 @@ const Header = () => {
                 <div className='header__logo'>
                     <img className='logo' src={logo} alt="trixcode" />
                 </div>
-                <a className='brand__item' href="#">individuals</a>
+                <a className='brand__item bold-font' href="#">individuals</a>
                 <a className='brand__item' href="#">Companies</a>
 
             </div>

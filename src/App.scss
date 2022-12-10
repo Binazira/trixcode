@@ -10,12 +10,12 @@
 body{
   font-family: 'Montserrat', sans-serif;
   color: $primary-color;
+  font-size: 16px;
 }
 
 .app{
   width: 375px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .container{
@@ -32,10 +32,21 @@ ul{
   list-style: none;
 }
 
+@media all and (min-width:$ml){
+  .app{
+    width: 425px;
+    margin: 0 auto;
+  }
+  
+  .container{
+    width: 375px;
+    margin: 0 auto;
+  }
+}
+
 @media all and (min-width:$md){
   .app{
     width: 100%;
-    border: none;
   }
 
   .container{
@@ -52,6 +63,12 @@ ul{
 @media all and (min-width: $mac) {
   .container{
     width: 1312px;
+  }
+}
+
+@media all and (min-width: $xlg) {
+  .container{
+    width: 1436px;
   }
 }
 

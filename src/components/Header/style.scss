@@ -43,6 +43,9 @@
 .brand{
     display: none;
 }
+.bold-font{
+    font-weight: bold;
+}
 .nav{
     display: none;
 }
@@ -89,6 +92,29 @@
     }
 }
 
+@media all and (min-width: $xlg) {
+    .header__logo{
+        width: 170px;
+        height: 50px;
+    }
+    .brand, .nav-menu{
+        @include header-flex(75px);
+        font-size: 23px;
+    }
+    .nav-menu__btn{
+        font-size: 21px;
+        height: 53px;
+        width: 143px;
+    }
+    .nav-menu{
+        #{img}{
+            margin-left: 10px;
+            height: 15px;
+            width: 20px;
+        }
+    }
+}
+
 @media all and (min-width: $fhd) {
     .brand, .nav-menu{
         @include header-flex(60px);
@@ -98,8 +124,10 @@
         font-size: 18px;
         height: 50px;
         width: 115px;
+        padding: 8px 16px;
     }
 }
+
 @media all and (min-width: $qhd) {
     .header__logo{
         width: 190px;
@@ -113,7 +141,7 @@
     .nav-menu__btn{
         font-size: 28px;
         height: 60px;
-        width: 165px;
+        width: 185px;
     }
     
     .nav-menu{
