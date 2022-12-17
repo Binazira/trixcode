@@ -1,0 +1,21 @@
+.button {
+  height: 64px;
+  width: 215px;
+  border-radius: 32px;
+  padding: 18px 32px 18px 32px;
+  background-color: #3cff64;
+  display: block;
+  margin: 32px auto 16px;
+  font-size: 18px;
+  border: none;
+
+  &__dark-blue {
+    background-color: #1a2233;
+  }
+
+  &__outline {
+    background-color: #101010;
+    border: 1px solid #fff;
+    color: #ffffff;
+  }
+}

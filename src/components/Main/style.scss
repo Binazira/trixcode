@@ -13,33 +13,6 @@
   margin: 0 auto;
 }
 
-// .story{
-//     display: flex;
-//     justify-content: space-between;
-//     border:1px solid red;
-//     width: 336px;
-//     height: 96px;
-//     margin: 0 auto;
-
-//     &__item{
-//         height: 74px;
-//         width: 74px;
-//         border: 2px solid green;
-//         border-radius: 50%;
-//         padding: 3px;
-
-//         #{img}{
-//             @include img-full;
-//         }
-
-//         #{p}{
-//             font-size: 13px;
-//             color: $primary-color;
-//         }
-//     }
-
-// }
-
 .hero {
   border: 1px solid red;
 
@@ -48,18 +21,6 @@
     margin: 60px auto 32px;
     width: 324px;
     font-size: 46px;
-  }
-
-  &__btn {
-    height: 64px;
-    width: 215px;
-    border-radius: 32px;
-    padding: 18px 32px 18px 32px;
-    background-color: #3cff64;
-    display: block;
-    margin: 32px auto 16px;
-    font-size: 18px;
-    border: none;
   }
 
   &__info {
