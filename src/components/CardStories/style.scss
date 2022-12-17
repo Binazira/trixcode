@@ -1,0 +1,35 @@
+@import "../../assets/styles/variables";
+
+.avatar {
+  &__item {
+    height: 74px;
+    width: 74px;
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 3px;
+
+    #{img} {
+      @include img-full;
+    }
+  }
+  #{p} {
+    text-align: center;
+    font-size: 13px;
+    color: $primary-color;
+  }
+
+  @media all and (min-width: $md) {
+    &__item {
+      height: 90px;
+      width: 90px;
+      border: 2px solid green;
+      border-radius: 50%;
+      padding: 3px;
+
+      #{p} {
+        font-size: 13px;
+        color: $primary-color;
+      }
+    }
+  }
+}
