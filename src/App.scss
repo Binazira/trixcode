@@ -1,84 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import "./assets/styles/variables";
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
   color: $primary-color;
   font-size: 16px;
 }
 
-.app{
+.app {
   width: 375px;
   margin: 0 auto;
+  border: 2px solid red;
 }
 
-.container{
+.container {
   width: 335px;
   margin: 0 auto;
+  border: 5px solid green;
 }
 
-a{
+a {
   text-decoration: none;
   color: $primary-color;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-@media all and (min-width:$ml){
-  .app{
+@media all and (min-width: $ml) {
+  .app {
     width: 425px;
     margin: 0 auto;
   }
-  
-  .container{
+
+  .container {
     width: 375px;
     margin: 0 auto;
   }
 }
 
-@media all and (min-width:$md){
-  .app{
+@media all and (min-width: $md) {
+  .app {
     width: 100%;
   }
 
-  .container{
+  .container {
     width: 688px;
   }
 }
 
 @media all and (min-width: $lg) {
-  .container{
+  .container {
     width: 924px;
   }
 }
 
 @media all and (min-width: $mac) {
-  .container{
+  .container {
     width: 1312px;
   }
 }
 
 @media all and (min-width: $xlg) {
-  .container{
+  .container {
     width: 1436px;
   }
 }
 
 @media all and (min-width: $fhd) {
-  .container{
+  .container {
     width: 1720px;
   }
 }
 @media all and (min-width: $qhd) {
-  .container{
+  .container {
     width: 2160px;
   }
 }

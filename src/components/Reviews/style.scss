@@ -1,0 +1,76 @@
+@import "../../assets/styles/variables";
+
+.reviews {
+  background-color: black;
+  padding: 32px 0;
+  margin-top: 40px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0;
+    margin-left: 20px;
+  }
+
+  &__text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
+@media all and (min-width: $lg) {
+  .reviews {
+    &__list {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+@media all and (min-width: $mac) {
+  .reviews {
+    &__text {
+      font-size: 18px;
+    }
+  }
+}
+
+@media all and (min-width: $xlg) {
+  .reviews {
+    &__list {
+      margin-left: 50px;
+    }
+  }
+}
+
+@media all and (min-width: $fhd) {
+  .reviews {
+    padding: 45px 0;
+    &__text {
+      font-size: 20px;
+    }
+
+    &__list {
+      margin: 45px 0;
+      margin-left: 30px;
+    }
+  }
+}
+
+@media all and (min-width: $qhd) {
+  .reviews {
+    padding: 55px 0;
+    &__text {
+      font-size: 25px;
+    }
+
+    &__list {
+      margin: 55px 0;
+      margin-left: 40px;
+    }
+  }
+}
