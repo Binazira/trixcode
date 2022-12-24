@@ -1,0 +1,132 @@
+@import "../../assets/styles/variables";
+
+.codely {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: #fff;
+  padding: 32px 20px;
+
+  &__title {
+    text-align: center;
+    font-size: 32px;
+  }
+  &__img {
+    margin: 0 auto;
+    width: 325px;
+    height: 443px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right__hidden {
+    display: none;
+  }
+}
+
+@media all and (min-width: $md) {
+  .codely {
+    &__img {
+      margin: 0 auto;
+      width: 400px;
+      height: 495px;
+    }
+  }
+}
+
+@media all and (min-width: $lg) {
+  .codely {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 744px;
+    margin: 0 64px;
+
+    &__right {
+      margin: 96px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 23px;
+      width: 50%;
+    }
+    &__left__hidden {
+      display: none;
+    }
+
+    &__right__hidden {
+      display: block;
+    }
+  }
+}
+
+@media all and (min-width: $mac) {
+  .codely {
+    height: 788px;
+
+    #{h2} {
+      font-size: 45px;
+    }
+  }
+}
+
+@media all and (min-width: $xlg) {
+  .codely {
+    height: 850px;
+
+    &__img {
+      width: 410px;
+      height: 100%;
+    }
+
+    #{h2} {
+      font-size: 45px;
+    }
+  }
+}
+
+@media all and (min-width: $fhd) {
+  .codely {
+    height: 900px;
+
+    &__img {
+      width: 450px;
+      height: 100%;
+    }
+
+    #{h2} {
+      font-size: 50px;
+    }
+  }
+}
+
+@media all and (min-width: $qhd) {
+  .codely {
+    height: 900px;
+
+    &__left {
+      width: 50%;
+    }
+
+    &__right {
+      width: 50%;
+    }
+
+    &__img {
+      width: 450px;
+      height: 100%;
+    }
+
+    #{h2} {
+      font-size: 50px;
+    }
+  }
+}
