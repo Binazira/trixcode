@@ -1,0 +1,90 @@
+@import "../../assets/styles/variables";
+
+.bonus {
+  padding: 96px 20px;
+
+  &__info {
+    text-align: center;
+    #{h2} {
+      font-size: 42px;
+      font-weight: 400;
+      margin-bottom: 32px;
+    }
+
+    #{p} {
+      margin-top: 24px;
+    }
+  }
+
+  &__list {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+@media all and (min-width: $lg) {
+  .bonus {
+    display: flex;
+    align-items: center;
+    gap: 112px;
+
+    &__info {
+      width: 50%;
+    }
+
+    &__list {
+      width: 50%;
+    }
+  }
+}
+
+@media all and (min-width: $mac) {
+  .bonus {
+    margin: 0 161px;
+    padding: 182px 0;
+  }
+}
+
+@media all and (min-width: $xlg) {
+  .bonus {
+    &__info {
+      #{h2} {
+        font-size: 50px;
+      }
+
+      #{p} {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: $fhd) {
+  .bonus {
+    &__info {
+      #{h2} {
+        font-size: 55px;
+      }
+
+      #{p} {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: $qhd) {
+  .bonus {
+    &__info {
+      #{h2} {
+        font-size: 64px;
+      }
+
+      #{p} {
+        font-size: 25px;
+      }
+    }
+  }
+}

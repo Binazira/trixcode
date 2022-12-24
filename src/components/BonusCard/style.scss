@@ -1,0 +1,69 @@
+@import "../../assets/styles/variables";
+
+.bonusCard {
+  background-color: #3cff64;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.bonusCard_red {
+  background-color: #c03142;
+  color: #fff;
+}
+
+.bonusCard_orange {
+  background-color: #f25b27;
+  color: #fff;
+}
+
+@media all and (min-width: $md) {
+  .bonusCard {
+    gap: 35px;
+  }
+}
+
+@media all and (min-width: $xlg) {
+  .bonusCard {
+    &__info {
+      #{h3} {
+        font-size: 22px;
+      }
+
+      #{p} {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: $fhd) {
+  .bonusCard {
+    &__info {
+      #{h3} {
+        font-size: 24px;
+      }
+
+      #{p} {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: $qhd) {
+  .bonusCard {
+    padding: 40px 16px;
+    &__info {
+      #{h3} {
+        font-size: 35px;
+      }
+
+      #{p} {
+        font-size: 35px;
+      }
+    }
+  }
+}

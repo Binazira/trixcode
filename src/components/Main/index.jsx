@@ -1,4 +1,5 @@
 import React from "react";
+import Bonus from "../Bonus";
 import Hero from "../Hero";
 import Reviews from "../Reviews";
 
@@ -7,6 +8,7 @@ const Main = () => {
     <main>
       <Hero />
       <Reviews />
+      <Bonus />
     </main>
   );
 };
