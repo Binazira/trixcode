@@ -4,7 +4,7 @@
   &__item {
     height: 74px;
     width: 74px;
-    border: 2px solid green;
+    border: 2px solid #3cff64;
     border-radius: 50%;
     padding: 3px;
 
@@ -22,9 +22,9 @@
     &__item {
       height: 90px;
       width: 90px;
-      border: 2px solid green;
+      border: 2px solid #3cff64;
       border-radius: 50%;
-      padding: 3px;
+      padding: 4px;
 
       #{p} {
         font-size: 13px;

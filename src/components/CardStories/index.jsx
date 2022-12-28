@@ -9,7 +9,6 @@ const CardStories = ({ img, text }) => {
         <img src={img} alt="avatar img" />
       </div>
       <p>{text}</p>
-      {/* <p>Ventajas</p> */}
     </div>
   );
 };

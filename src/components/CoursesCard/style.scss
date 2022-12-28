@@ -1,0 +1,39 @@
+.coursesCard {
+  &__color {
+    background-color: #3cff64;
+    height: 182px;
+    width: 284px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 67px;
+  }
+
+  &__author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+.bgrOrange {
+  background-color: #f25b27;
+  color: #ffffff;
+}
+
+.bgrBlack {
+  background-color: #101010;
+  color: #ffffff;
+}
+
+.bgrRed {
+  background-color: #c03142;
+  color: #ffffff;
+}
