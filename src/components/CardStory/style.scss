@@ -1,0 +1,52 @@
+@import "../../assets/styles/variables";
+.cardStory {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  &__story {
+    display: none;
+  }
+}
+
+@media all and (min-width: $lg) {
+  .cardStory {
+    margin: 100px 220px;
+    justify-content: space-evenly;
+    &__story {
+      display: block;
+    }
+  }
+}
+
+@media all and (min-width: $mac) {
+  .cardStory {
+  }
+}
+
+@media all and (min-width: $mac) {
+  .cardStory {
+  }
+}
+
+@media all and (min-width: $fhd) {
+  .cardStory {
+  }
+}
+
+@media all and (min-width: $qhd) {
+  .cardStory {
+    &__story {
+      width: 600px;
+
+      #{img} {
+        width: 100%;
+      }
+    }
+  }
+}

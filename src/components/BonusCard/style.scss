@@ -19,9 +19,37 @@
   color: #fff;
 }
 
+.cardStory__grey {
+  width: 311px;
+  height: 192px;
+  padding: 24px 32px 24px 32px;
+  border-radius: 4px 4px 0px 4px;
+
+  background-color: #efefef;
+}
+
 @media all and (min-width: $md) {
   .bonusCard {
     gap: 35px;
+  }
+
+  .cardStory__grey {
+    height: 140px;
+    width: 504px;
+  }
+}
+
+@media all and (min-width: $lg) {
+  .cardStory__grey {
+    width: 311px;
+    height: 192px;
+  }
+}
+
+@media all and (min-width: $mac) {
+  .cardStory__grey {
+    width: 504px;
+    height: 140px;
   }
 }
 
@@ -37,6 +65,11 @@
       }
     }
   }
+
+  .cardStory__grey {
+    width: 504px;
+    height: 140px;
+  }
 }
 
 @media all and (min-width: $fhd) {
@@ -50,6 +83,10 @@
         font-size: 24px;
       }
     }
+  }
+  .cardStory__grey {
+    width: 600px;
+    height: 200px;
   }
 }
 
@@ -65,5 +102,10 @@
         font-size: 35px;
       }
     }
+  }
+
+  .cardStory__grey {
+    width: 800px;
+    height: 250px;
   }
 }
