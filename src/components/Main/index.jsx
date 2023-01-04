@@ -4,6 +4,7 @@ import CardStory from "../CardStory";
 import Codely from "../Codely";
 import Courses from "../Courses";
 import Hero from "../Hero";
+import Price from "../Price/Price";
 import Reviews from "../Reviews";
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
       <Codely />
       {/* <Courses /> */}
       <CardStory />
+      <Price />
     </main>
   );
 };

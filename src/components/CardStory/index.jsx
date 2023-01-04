@@ -28,6 +28,7 @@ const CardStory = () => {
         {cardsData.map((cardInfo, index) => {
           return (
             <BonusCard
+              key={index}
               cl={cardInfo.cl}
               title={cardInfo.title}
               text={cardInfo.text}

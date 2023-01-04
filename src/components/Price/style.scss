@@ -1,0 +1,23 @@
+@import "../../assets/styles/variables";
+.price {
+  background-color: #101010;
+  padding: 32px 20px;
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+  }
+}
+
+@media all and (min-width: $lg) {
+  .price {
+    padding: 120px 20px;
+    &__wrapper {
+      flex-direction: row;
+    }
+  }
+}
